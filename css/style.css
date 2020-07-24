@@ -38,21 +38,18 @@ body {
 
 .mentor-intro {
   background: #f2ebe9;
-  height: 560px;
+}
+
+.mentor-intro .container {
+  
 }
 
 .mentor-intro p {
-  font-size: 32px;
-  line-height: 48px;
-  font-family: Averta-Bold;
   width: 75%;
   margin: 0 auto;
-  margin-bottom: 96px;
 }
 
 .sub-heading {
-  color: #e7332b;
-  font-size: 14px;
   padding-top: 280px;
 }
 
@@ -63,21 +60,6 @@ body {
   text-align: center;
 }
 
-.mentor-detail {
-  margin-bottom: 100px;
-}
-
-.mentor-name {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  font-size: 18px;
-  line-height: 28px;
-}
-
-.mentor-track {
-  font-size: 14px;
-  margin-bottom: 30px;
-}
 
 /* enroll section */
 
@@ -113,7 +95,6 @@ body {
 
 @media (max-width: 767px) {
   .mentor-intro {
-    height: 326px;
   }
 
   .sub-heading {
@@ -121,7 +102,6 @@ body {
   }
 
   .mentor-intro p {
-    font-size: 14px;
     width: 100%;
   }
 
@@ -130,7 +110,6 @@ body {
   }
 
   .mentor-detail {
-    margin-bottom: 30px;
   }
 
   /* enroll section */
