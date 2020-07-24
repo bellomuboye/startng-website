@@ -225,7 +225,12 @@ body {
   text-align: center;
   color: #514949;
 }
-
+@media (min-width: 500px) {
+  .big-heading {
+    font-family: Averta-Bold;
+    font-size: 1em;
+  }
+}
 @media (min-width: 768px) {
   
 
@@ -254,11 +259,4 @@ body {
   }
 }
 
-@media (min-width: 500px) {
-  .big-heading {
-    font-family: Averta-Bold;
 
-    font-size: 1em;
-
-  }
-}
