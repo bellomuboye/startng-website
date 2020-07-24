@@ -1,6 +1,29 @@
+@font-face {
+  font-family: "Averta";
+  src: url("fonts/Averta-Thin.woff") format("woff"),
+       url("fonts/Averta-Thin.otf") format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Averta";
+  src: url("fonts/Averta.woff") format("woff"),
+       url("fonts/Averta.otf") format("opentype");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Averta";
+  src: url("fonts/Averta-Semibold.woff") format("woff"),
+       url("fonts/Averta-Semibold.otf") format("opentype");
+  font-weight: 600;
+}
+html{
+  overflow-x: hidden; 
+}
 body {
   overflow-x: hidden;
-  font-family: Averta-Regular;
+  font-family: Averta;
   color: #505962;
 }
 
@@ -38,6 +61,9 @@ body {
 
 .mentor-intro {
   background: #f2ebe9;
+  display:grid;
+  place-items: center;
+  height:80vh;
 }
 
 .mentor-intro .container {
@@ -46,11 +72,12 @@ body {
 
 .mentor-intro p {
   width: 75%;
+ 
   margin: 0 auto;
 }
 
 .sub-heading {
-  padding-top: 280px;
+  
 }
 
 #mentor-gallery {
@@ -58,6 +85,10 @@ body {
 }
 .mentor-image {
   text-align: center;
+  cursor:pointer;
+}
+.mentor-detail{
+  margin:1.6em 1em;
 }
 
 
@@ -85,8 +116,7 @@ body {
 }
 
 .btn-red {
-  width: 148px;
-  height: 46px;
+  padding:.7em 2em;
   background: #e7332b;
   color: #fff;
 }
@@ -225,5 +255,10 @@ body {
     line-height: 24px;
     color: #514949;
     opacity: 0.9;
+  }
+}
+@media only screen and (max-width:500px){
+  .mentor-intro{
+    height: 60vh;
   }
 }
