@@ -69,10 +69,6 @@ body {
   margin-bottom: 100px;
 }
 
-.mentor-info {
-  padding: 0 10px ;
-}
-
 .mentor-name {
   margin-top: 20px;
   margin-bottom: 10px;
@@ -137,9 +133,7 @@ body {
   .mentor-detail {
     margin-bottom: 30px;
   }
-  .mentor-info {
-    padding: 0 10px ;
-  }
+
 
   /* enroll section */
 
@@ -160,4 +154,25 @@ body {
     font-size: 16px;
   }
 
+}
+
+.mentor-detail img {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.mentor-detail:hover img {
+	-webkit-transform: scale(1.3);
+	transform: scale(1.3);
+}
+
+.mentor-image {
+  overflow: hidden;
+}
+
+.mentor-detail {
+  max-width: 314px;
+  margin-left: auto;
+  margin-right: auto;
 }
